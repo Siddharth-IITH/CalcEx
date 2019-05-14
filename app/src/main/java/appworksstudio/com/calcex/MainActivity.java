@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //setting listeners to substraction button
-        add.setOnClickListener(new View.OnClickListener() {
+        sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 double result =Double.parseDouble(num1.getText().toString()) -Double.parseDouble(num2.getText().toString());
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //setting listeners to multiply button
-        add.setOnClickListener(new View.OnClickListener() {
+        mult.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 double result =Double.parseDouble(num1.getText().toString()) * Double.parseDouble(num2.getText().toString());
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //setting listeners to divide button
-        add.setOnClickListener(new View.OnClickListener() {
+        divide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 double result =Double.parseDouble(num1.getText().toString())  / Double.parseDouble(num2.getText().toString());
